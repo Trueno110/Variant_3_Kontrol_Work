@@ -1,0 +1,21 @@
+﻿<Window x:Class="Variant_3_Kontrol_Work.Zakaz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Variant_3_Kontrol_Work"
+        mc:Ignorable="d"
+        Title="Zakaz" Height="450" Width="800">
+    <Grid>
+        <Image Source="/52753bd854aeda5be2e277aa5ad2f302.jpg" Stretch="Fill" Margin="-11,0,0,-12"/>
+        <TextBox HorizontalAlignment="Left" Margin="16,234,0,0" TextWrapping="Wrap" Background="White" Foreground="DarkRed" VerticalAlignment="Top" Width="233" FontSize="35" Text="Заказ №1056" />
+        <Button  HorizontalAlignment="Left" Margin="536,234,0,0" VerticalAlignment="Top" Background="White" FontSize="35" Content="Оплатить"  Foreground="Black" Height="57" Width="254" Click="Button_Click_13"/>
+        <TextBlock HorizontalAlignment="Left" Margin="271,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314"><Run Foreground="White" FontSize="35" Language="ru-ru" Text="Способ оплаты:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="16,294,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="232" Text="Qr-код" FontSize="25" Height="30" />
+        <RadioButton Content="Выбрать данный способ оплаты!" Foreground="White" HorizontalAlignment="Left" Margin="271,296,0,0" FontSize="25" VerticalAlignment="Top" Height="27" Width="403"/>
+        <TextBox HorizontalAlignment="Left" Margin="16,335,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="232" Text="Банковская карта" FontSize="25" Height="30" />
+        <RadioButton Content="Выбрать данный способ оплаты!" Foreground="White" HorizontalAlignment="Left" Margin="271,337,0,0" FontSize="25" VerticalAlignment="Top" Height="27" Width="403"/>
+        <TextBox HorizontalAlignment="Left" Margin="16,380,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="232" Text="Наличные" FontSize="25" Height="29" />
+        <RadioButton Content="Выбрать данный способ оплаты!" Foreground="White" HorizontalAlignment="Left" Margin="271,382,0,0" FontSize="25" VerticalAlignment="Top" Height="27" Width="403"/>
+    </Grid>
+</Window>

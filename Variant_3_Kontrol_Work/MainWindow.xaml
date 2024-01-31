@@ -1,0 +1,26 @@
+﻿<Window x:Class="Variant_3_Kontrol_Work.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Variant_3_Kontrol_Work"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Aquamarine">
+        <Image Source="/maxresdefault (4).jpg" Stretch="Fill"/>
+
+        <Button   BorderBrush="red" HorizontalAlignment="Left" Margin="553,318,0,0" VerticalAlignment="Top" Background="Black" FontSize="35" Content="Войти"  Foreground="Yellow" Height="60" Width="118" Click="Button_Click_2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="502,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"><Run Language="ru-ru" Foreground="Red" FontSize="25" FontWeight="Black" Text="Вход в систему"/></TextBlock>
+        <TextBox  BorderBrush="red" HorizontalAlignment="Center" Margin="0,228,0,0" TextWrapping="Wrap" Background="Black" Foreground="Yellow" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox  BorderBrush="red" HorizontalAlignment="Center" Margin="0,330,0,0" Background="Black" Foreground="Yellow" VerticalAlignment="Top" Width="120"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="340,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"><Run FontSize="15" Foreground="red" Language="ru-ru" Text="Введите Логин"/></TextBlock>
+        <TextBlock  Foreground="red" HorizontalAlignment="Left" Margin="340,305,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"><Run FontSize="15" Text="Введите "/><Run FontSize="15" Language="ru-ru" Text="Пароль"/></TextBlock>
+
+        <Button  BorderBrush="red" HorizontalAlignment="Left" Margin="724,7,0,0" VerticalAlignment="Top" Background="Black" FontSize="15" Content="Выйти"  Foreground="Yellow" Height="32" Width="56" Click="Button_Click_1"/>
+        <Button   BorderBrush="red" HorizontalAlignment="Left" Margin="86,328,0,0" VerticalAlignment="Top" Background="Black" FontSize="15" Content="Работник"  Foreground="Yellow" Height="28" Width="73" Click="Button_Click_9"/>
+        <Button   BorderBrush="red" HorizontalAlignment="Left" Margin="167,328,0,0" VerticalAlignment="Top" Background="Black" FontSize="15" Content="Клиент"  Foreground="Yellow" Height="28" Width="74" Click="Button_Click_11"/>
+
+    </Grid>
+</Window>
+
+
